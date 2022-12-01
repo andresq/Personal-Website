@@ -1,0 +1,29 @@
+.workExample {
+  /* border: 5px solid red; */
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.workExample div {
+  /* border: 5px solid blue; */
+  padding: 20px;
+  width: 800px;
+  height: 350px;
+}
+
+img {
+  margin: auto;
+  /* width: 810; */
+  height: 350px;
+}
+
+.workImage {
+  border: 2px solid green;
+}
+
+.workExplained a {
+  display: flex;
+  justify-content: center;
+}

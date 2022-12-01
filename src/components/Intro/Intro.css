@@ -1,0 +1,13 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5% 2.5%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+a {
+  font-size: 40px;
+}
