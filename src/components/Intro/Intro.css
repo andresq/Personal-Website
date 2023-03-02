@@ -1,6 +1,4 @@
 .intro {
-  display: flex;
-  justify-content: space-between;
   padding: 2.5% 2.5%;
 }
 
@@ -10,4 +8,32 @@ h1 {
 
 a {
   font-size: 40px;
+}
+
+@media all and (min-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro {
+    display: flex;
+    padding-top: 150px;
+    flex-direction: column;
+    text-align: right;
+    height: 50vh;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    padding-top: 125px;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }

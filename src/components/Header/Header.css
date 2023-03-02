@@ -1,19 +1,22 @@
 .header {
-    background-color: #212529;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    font-weight: 400;
-    line-height: 2.5em;
-    
+  background-color: #212529;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-weight: 400;
+  line-height: 2.5em;
 }
 
-h2 {
-    font-size: 30px;
+.header h2 {
+  font-size: 30px;
 }
 
-a {
-    font-size: 30px;
-    text-decoration: none;
-    position: relative;
+.header a {
+  font-size: 30px;
+  text-decoration: none;
+  position: relative;
+}
+
+.header a:hover {
+  color: #e4ff1a;
 }

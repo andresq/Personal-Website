@@ -1,0 +1,18 @@
+@media all and (min-width: 600px) {
+  .footer a {
+    display: inline-block;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .footer a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+.footer svg:hover path {
+  color: #e4ff1a;
+}
