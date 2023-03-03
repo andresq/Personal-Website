@@ -1,21 +1,27 @@
 {
-  "name": "v2.0",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "dev": "parcel src/index.html",
-    "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.7.0"
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.4.5"
-  }
+	"name": "v2.0",
+	"version": "1.0.0",
+	"description": "personal website for andresq.com",
+	"source": "src/index.html",
+	"scripts": {
+		"dev": "npm run format && npm run lint && parcel",
+		"format": "prettier --write \"src/**/*.{js,jsx}\"",
+		"lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+		"build": "parcel build src/index.html && cp public/* dist/"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.32.2",
+		"parcel": "^2.7.0",
+		"process": "^0.11.10"
+	},
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-router-dom": "^6.4.5"
+	}
 }
