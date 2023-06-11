@@ -5,7 +5,7 @@ import Link from '../Link/Link'
 const Links = () => {
 	return (
 		<BackgroundImage>
-			<ul className="Links">
+			<ul className="links">
 				<Link
 					icon="instagram"
 					url="https://instagram.com/andres.q_"
