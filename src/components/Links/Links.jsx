@@ -8,13 +8,8 @@ const Links = () => {
 			<ul className="links">
 				<Link
 					icon="instagram"
-					url="https://instagram.com/andres.q_"
+					url="https://instagram.com/andresq.exe"
 					name="Instagram"
-				/>
-				<Link
-					icon="twitter"
-					url="https://twitter.com/andresq__"
-					name="Twitter"
 				/>
 				<li>👾👾👾</li>
 				<Link icon="playstation" name="andresq279" />

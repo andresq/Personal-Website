@@ -14,11 +14,8 @@ const Footer = () => {
 				<a href="mailto:hello@andresq.com">
 					<Icon name={'email'} />
 				</a>
-				<a href="https://instagram.com/andres.q_">
+				<a href="https://instagram.com/andresq.exe">
 					<Icon name={'instagram'} />
-				</a>
-				<a href="https://twitter.com/andresq__">
-					<Icon name={'twitter'} />
 				</a>
 				<a href="/links">
 					<Icon name={'game'} />
